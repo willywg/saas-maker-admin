@@ -8,7 +8,7 @@ image: your-username/saas-template-admin
 servers:
   web:
     hosts:
-      - YOUR_SERVER_IP
+      - your-server-ip
 
 registry:
   username: your-username
