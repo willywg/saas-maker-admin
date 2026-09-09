@@ -49,8 +49,9 @@ npm run preview
 # Type check
 npm run typecheck
 
-# Lint
+# Lint / tests
 npm run lint
+npm test
 
 # Security audit / upgrade deps
 npm run audit
@@ -62,6 +63,10 @@ npm run upgrade
 - Admin JWT tokens stored in localStorage (`admin_token`)
 - Separate from tenant user authentication
 - API endpoints: `/admin/auth/*`, `/admin/organizations/*`, `/admin/users/*`
+
+## Design
+
+Follow `../DESIGN.md`. The admin uses the same tokens with a neutral (near-black) primary; do not apply the brand hue here.
 
 ## Color Palette
 
