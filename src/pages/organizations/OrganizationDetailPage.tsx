@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useParams, Link } from "react-router-dom"
+import { useParams, Link } from 'react-router'
 import { useOrganization, useToggleOrganizationStatus } from "@/hooks/useOrganizations"
 import { useOrganizationUsers, useToggleUserStatus } from "@/hooks/useUsers"
 import { StatusBadge } from "@/components/shared/StatusBadge"

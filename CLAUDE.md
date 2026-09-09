@@ -9,7 +9,7 @@ Admin panel for the SaaS platform. Manages organizations and users across the sy
 - **Framework**: React 19 + TypeScript + Vite
 - **Styling**: Tailwind CSS 4 + Shadcn/ui (gray palette)
 - **State**: TanStack React Query
-- **Routing**: React Router DOM v7
+- **Routing**: React Router 8 (`react-router`)
 
 ## Project Structure
 
@@ -34,6 +34,8 @@ admin/
 
 ## Commands
 
+Requires Node 24 (see `.nvmrc`, `nvm use`).
+
 ```bash
 # Development
 npm run dev           # Starts on port 5191
@@ -46,13 +48,20 @@ npm run preview
 
 # Type check
 npm run typecheck
+
+# Lint
+npm run lint
+
+# Security audit / upgrade deps
+npm run audit
+npm run upgrade
 ```
 
 ## Authentication
 
 - Admin JWT tokens stored in localStorage (`admin_token`)
 - Separate from tenant user authentication
-- API endpoints: `/api/v1/admin/*`
+- API endpoints: `/admin/auth/*`, `/admin/organizations/*`, `/admin/users/*`
 
 ## Color Palette
 

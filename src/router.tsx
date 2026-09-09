@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom"
+import { createBrowserRouter } from 'react-router'
 import { AdminLayout } from "@/components/layout/AdminLayout"
 import { ProtectedRoute } from "@/components/auth/ProtectedRoute"
 import {

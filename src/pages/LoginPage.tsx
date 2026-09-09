@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useNavigate, useLocation } from "react-router-dom"
+import { useNavigate, useLocation } from 'react-router'
 import { useAdminLogin } from "@/hooks/useAdminAuth"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"

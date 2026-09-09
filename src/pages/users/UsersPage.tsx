@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Link } from "react-router-dom"
+import { Link } from 'react-router'
 import { useUsers, useToggleUserStatus } from "@/hooks/useUsers"
 import { SearchInput } from "@/components/shared/SearchInput"
 import { Pagination } from "@/components/shared/Pagination"

@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useParams, Link } from "react-router-dom"
+import { useParams, Link } from 'react-router'
 import { useUser, useToggleUserStatus } from "@/hooks/useUsers"
 import { StatusBadge } from "@/components/shared/StatusBadge"
 import { ConfirmDialog } from "@/components/shared/ConfirmDialog"
